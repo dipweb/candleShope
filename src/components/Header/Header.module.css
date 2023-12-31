@@ -1,0 +1,16 @@
+.header {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.muneIcon {
+  font-size: 1.6rem;
+  padding: 15px;
+}
+
+@media only screen and (max-width: 768px) {
+  .header {
+    justify-content: space-between;
+  }
+}
